@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+    font-size: 72px;
+    font-family: Helvetica, Arial,  sans-serif;
+    color: rgb(39, 41, 41);
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    font-size: 55px;
+    font-family: Helvetica, Arial,  sans-serif;
+    color: rgb(39, 41, 41);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imags {
+    display: flex;
+}
+
+
+.btn {
+    display: block;
+    border: solid 1px #272727;
+    font-size: 35px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 50px;
+    background: #272727;
+    color: #c9c9c9;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family:Helvetica, Arial,  sans-serif;
+    
+
+}
+.btn:hover,
+.btn:focus {
+background: #e4e4e4;
+color: #272727; 
+}
+.btn:active{
+background: #272727;
+}
+.btn-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
